@@ -4,7 +4,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: nepolin/api_nies
+    image: nepolin/players_api
     ports:
       - "6969:80"
     volumes:

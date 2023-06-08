@@ -1,4 +1,4 @@
-import api_nies as dt
+import players_api as dt
 
 
 def test_add_offset():
