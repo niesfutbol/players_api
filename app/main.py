@@ -15,6 +15,6 @@ def get_player(player_id: int):
     return PLAYERS[player_id]
 
 
-@app.get("./players")
+@app.get("/players")
 def get_player():
     return pfa.get_player_and_id(players["response"])
