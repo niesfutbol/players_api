@@ -25,12 +25,6 @@ define lint
         ${1}
 endef
 
-build:
-	docker build --tag islasgeci/fastapi_example .
-
-run:
-	docker run --rm --detach --name fastapi_example --publish 80:80 islasgeci/fastapi_example
-
 check:
 	black --check --line-length 100 ${module}
 	black --check --line-length 100 tests
