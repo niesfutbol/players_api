@@ -19,4 +19,4 @@ def get_player(player: int = 54):
 
 @app.get("/v1/players")
 def get_player():
-    return JSONResponse(content=pfa.get_player_and_id(players["response"], headers=headers))
+    return JSONResponse(content=pfa.get_player_and_id(players["response"]), headers=headers)
