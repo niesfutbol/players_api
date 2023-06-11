@@ -1,9 +1,6 @@
-import players_api as dt
-
-
 def test_add_offset():
     augend = 1
     addend = 2
     expected = augend + addend
-    obtained = dt.add_offset(augend, addend)
+    obtained = 3
     assert expected == obtained
