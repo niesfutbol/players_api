@@ -3,6 +3,13 @@ services:
   nies:
     build:
       context: .
+      dockerfile: Dockerfile.dev
+    image: nepolin/players_api_dev
+    volumes:
+      - $PWD:/workdir
+  app:
+    build:
+      context: .
       dockerfile: Dockerfile
     image: nepolin/players_api
     ports:
