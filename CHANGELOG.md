@@ -22,4 +22,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Removed
 
-[0.1.1]: https://github.com/niesfutbol/statified/compare/v0.1.0...v0.1.1
+[0.1.1]: https://github.com/niesfutbol/players_api/compare/v0.1.0...v0.1.1
