@@ -26,4 +26,4 @@ def get_player():
 
 @app.get("/v1/percentile")
 def get_player():
-    return JSONResponse(content=large.to_dict(orient = "records"), headers=headers)
+    return JSONResponse(content=large.to_dict(orient="records"), headers=headers)
