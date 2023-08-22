@@ -7,6 +7,6 @@ src="https://github.com/nepito/world_cup_semis/blob/develop/img/logo.jpeg" align
 ## Step to use
 ### Local API
 ``` bash
-docker-compose up -d nies
+docker-compose up -d app
 ```
 We can see the documentation in http://127.0.0.1:6969/docs
